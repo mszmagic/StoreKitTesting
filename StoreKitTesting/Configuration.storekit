@@ -1,0 +1,74 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1CA99952",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "バーチャルキャットフード",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "virtualCatFood",
+      "referenceName" : "バーチャルキャットフード",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "3D231370",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "バーチャルキャットハウス",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "virtualCatHouse",
+      "referenceName" : "バーチャルキャットハウス",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "CECFE2E3",
+      "localizations" : [
+
+      ],
+      "name" : "dailyVirtualCatFood",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "AFA67482",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "毎日バーチャルキャットフードサブスクリプション",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "dailyVirtualCatFood",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "毎日バーチャルキャットフードサブスクリプション",
+          "subscriptionGroupID" : "CECFE2E3",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
